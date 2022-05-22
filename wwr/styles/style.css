@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab:wght@303&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #7a6174;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -26,7 +29,11 @@ main section {
 }
 
 body {
+    font-family: "Roboto Slab", Arial, sans-serif;
     background-color: #d1b1c8; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(170, 225, 234, 0.593);
@@ -40,6 +47,10 @@ nav a:hover {
     background-color: #d1b1c8;
     color: #7a6174;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -53,14 +64,21 @@ nav a:hover {
 
 .msg {
     background-color: rgba(170, 225, 234, 0.593);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #86677e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
+    font-family: Righteous, Helvetica, sans-serif;
     color: #7a6174;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -68,11 +86,14 @@ h4 {
 }
 
 .msg h2 {
+    font-family: Righteous, Helvetica, sans-serif;
     color: #7a6174;
 }
 
 .msg p {
     color: #7a6174;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -94,6 +115,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero.img {
@@ -102,4 +124,28 @@ footer a:hover {
 
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #7a6174;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
 }
