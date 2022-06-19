@@ -225,6 +225,49 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.salmon-river {
+    float: left;
+    grid-column: 1/4;
+    grid-row: 2/5;
+}
+
+.gray-river {
+    float: left;
+    grid-column: 1/4;
+    grid-row: 6/9;
+}
+
+.grand-river {
+    float: left;
+    grid-column: 1/4;
+    grid-row: 10/13;
+}
+
+.salmon-river p {
+    grid-column: 5/9;
+    grid-row: 2/5;
+    font-size: .8em;
+    width: 90%;
+    float: right;
+}
+
+.gray-river p {
+    grid-column: 6/10;
+    grid-row: 7/12;
+    font-size: .8em;
+}
+
+.grand-river p {
+    grid-column: 6/10;
+    grid-row: 13/17;
+    font-size: .8em;
+}
           
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
