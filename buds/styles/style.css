@@ -130,7 +130,7 @@ footer .social img {
 
 .hardiness-zones-home {
     display: grid;
-    grid-template: 215px 1fr 215px 900px/150px 150px 1fr 125px;
+    grid-template-columns: 150px 150px 1fr 125px;
     gap: 25px;
     margin: 50px;
 }
@@ -174,4 +174,50 @@ footer .social img {
     width: 90%;
     justify-self: center;
     align-self: center;
+}
+
+.getting-started {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 50px;
+}
+
+.getting-started-msg-1 {
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;
+    background-color: #7D70E5;
+    color: rgb(198, 198, 198);
+    font-size: 30px;
+}
+
+.raised-bed-card {
+    grid-column: 3/4;
+}
+
+.planting-card {
+    grid-column: 1/2;
+}
+
+.getting-started-msg-2 {
+    grid-column: 2/4;
+    justify-self: center;
+    align-self: center;
+    background-color: #7D70E5;
+    color: rgb(198, 198, 198);
+    font-size: 30px;
+}
+
+.getting-started-msg-3 {
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;
+    background-color: #7D70E5;
+    color: rgb(198, 198, 198);
+    font-size: 30px;
+}
+
+.quaint-card {
+    grid-column: 3/4;
 }
