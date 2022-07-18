@@ -91,6 +91,7 @@ body {
     text-align: center;
     background-color: #4834DA;
     color: white;
+    padding: 15px;
 }
 
 .card-img {
@@ -141,6 +142,7 @@ footer .social img {
     background-color: #4834DA;
     color: white;
     font-size: 30px;
+    padding: 15px;
 }
 
 .hardiness-zone-map-card {
@@ -156,6 +158,7 @@ footer .social img {
     background-color: #4834DA;
     color: white;
     font-size: 30px;
+    padding: 15px;
 }
 
 .hardiness-zone-msg-3 {
@@ -166,6 +169,7 @@ footer .social img {
     justify-self: center;
     align-self: center;
     font-size: 30px;
+    padding: 15px;
 }
 
 .greenhouse-card {
@@ -190,6 +194,7 @@ footer .social img {
     background-color: #4834DA;
     color: white;
     font-size: 30px;
+    padding: 15px;
 }
 
 .raised-bed-card {
@@ -207,6 +212,7 @@ footer .social img {
     background-color: #4834DA;
     color: white;
     font-size: 30px;
+    padding: 15px;
 }
 
 .getting-started-msg-3 {
@@ -216,6 +222,7 @@ footer .social img {
     background-color: #4834DA;
     color: white;
     font-size: 30px;
+    padding: 15px;
 }
 
 .quaint-card {
